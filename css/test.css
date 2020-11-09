@@ -1,0 +1,14 @@
+body {
+    background: black;
+    color: white;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.table-special {
+    border: 5px dashed white;
+    margin-top: 10px;
+}

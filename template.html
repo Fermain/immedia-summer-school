@@ -5,10 +5,28 @@
 <head>
     <meta charset="utf-8">
     <title>Basic HTML Template</title>
+    <link rel="stylesheet" href="/css/test.css">
 </head>
 
 <body>
+    <h1>Success!</h1>
     <p>This is the most basic possible HTML file.</p>
+    <button onclick="toggleClassToTable()">Add class to table</button>
+    <table class="table-special">
+        <thead>
+            <tr>
+                <th>Hello</th>
+                <th>Goodbye</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hey</td>
+                <td>Bye</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="js/test.js"></script>
 </body>
 
 </html>
