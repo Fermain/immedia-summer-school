@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Web Portfolio of Marco</title>
-        <title>
-            HTML background color
-        </title>
 
-    <body style="background-color: khaki;">
-        <style=background-color:blue;</style>
-        <h1>Lord of The Ring</h1>
-        <p>Lord of the Ring</p>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Web Portfolio of Marco</title>
+    <title>
+        HTML background color
+    </title>
+    <!-- You were missing a closing <head> tag! -->
+</head>
 
-    </html>
+<body style="background-color: khaki;">
+    <!-- <style=background-color:blue;</style> -->
+    <!-- VVV Better this way VVV -->
+    <style>
+        body {
+            background-color: blue;
+        }
+    </style>
+
+    <h1>Lord of The Ring</h1>
+    <p>Lord of the Ring</p>
+</body>
+
+</html>
