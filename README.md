@@ -1,3 +1,0 @@
-# immedia-summer-school
-
-Testing 
